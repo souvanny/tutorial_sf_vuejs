@@ -1,0 +1,7 @@
+services:
+    library.string_utils:
+        class: AppBundle\Library\StringUtils
+        arguments: ["@service_container"]
+    library.date_time_utils:
+        class: AppBundle\Library\DateTimeUtils
+        arguments: ["@service_container"]

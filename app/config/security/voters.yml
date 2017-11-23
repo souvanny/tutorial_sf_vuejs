@@ -1,0 +1,8 @@
+services:
+  souv.security.app.voter.admin:
+    class: AppBundle\Security\Voter\MainVoter
+    arguments: []
+    public: false
+    tags:
+      - { name: security.voter }
+
